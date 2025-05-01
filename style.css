@@ -1,0 +1,65 @@
+body {
+      font-family: 'Segoe UI', sans-serif;
+        background: #f3f3f3;
+          text-align: center;
+            padding: 2rem;
+              color: #333;
+              }
+
+              header {
+                margin-bottom: 2rem;
+                }
+
+                .fade-in {
+                  animation: fadeIn 2s ease-in forwards;
+                    opacity: 0;
+                    }
+
+                    @keyframes fadeIn {
+                      to {
+                          opacity: 1;
+                            }
+                            }
+
+                            .model-section {
+                              margin-top: 3rem;
+                                position: relative;
+                                }
+
+                                #model {
+                                  width: 200px;
+                                    transition: transform 1s ease;
+                                      position: relative;
+                                        left: 0;
+                                        }
+
+                                        .walk {
+                                          animation: walkAnimation 2s ease-in-out forwards;
+                                          }
+
+                                          @keyframes walkAnimation {
+                                            from {
+                                                transform: translateX(0);
+                                                  }
+                                                    to {
+                                                        transform: translateX(200px);
+                                                          }
+                                                          }
+
+                                                          button {
+                                                            padding: 10px 20px;
+                                                              margin-top: 1rem;
+                                                                font-size: 16px;
+                                                                  cursor: pointer;
+                                                                    border: none;
+                                                                      background-color: #4caf50;
+                                                                        color: white;
+                                                                          border-radius: 8px;
+                                                                          }
+
+                                                                          input {
+                                                                            padding: 10px;
+                                                                              font-size: 16px;
+                                                                                border-radius: 6px;
+                                                                                  border: 1px solid #ccc;
+                                                                                  }
